@@ -1,0 +1,102 @@
+/* estilos_carrito.css */
+
+/* Estilos para los encabezados */
+h1 {
+    color: #cf5555; /* Color del texto */
+    text-align: left; 
+}
+
+h2{
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el contenedor principal de los botones */
+.botones-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente los elementos dentro del contenedor */
+    align-items: center;
+    margin-top: 20px; /* Ajuste del margen superior */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 8px 16px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    margin: 0 10px; /* Espaciado horizontal entre los botones */
+}
+
+/* Estilos específicos para el botón "Administrar carrito" */
+.administrar-carrito-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 8px 16px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    display: inline-block; /* Convertir en bloque para ocupar solo el ancho necesario */
+    margin-right: 20px; /* Espacio derecho */
+}
+
+
+
+/* Estilos específicos para el botón "Desarrolladores" */
+.desarrolladores-button {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Pseudo-clase hover para el botón "Desarrolladores" */
+.desarrolladores-button:hover {
+    background-color: #a3b73c; /* Cambio de color al pasar el ratón */
+}
+
+/* Pseudo-clase focus para el botón "Desarrolladores" */
+.desarrolladores-button:focus {
+    outline: none;
+}
+
+/* Estilos para el botón de cerrar sesión */
+.cerrar-sesion-button {
+    background-color: #c22737; /* Color de fondo del botón de cerrar sesión */
+    color: #fff; /* Color del texto del botón de cerrar sesión */
+}
+
+
+.desarrolladores-button,
+.administrar-carrito-button,
+.cerrar-sesion-button {
+    margin: 10px; /* Espaciado entre los botones */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 80%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Fusionar bordes de las celdas */
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 8px; /* Espacio interno de las celdas */
+    text-align: center; /* Centrar el texto */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo del encabezado de la tabla */
+}
+
+/* Estilos para el precio total */
+p {
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Espacio superior */
+}
+
